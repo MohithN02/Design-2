@@ -1,7 +1,8 @@
-// Time Complexity :
-// Space Complexity :
-// Did this code successfully run on Leetcode :
-// Any problem you faced while coding this :
+// Time Complexity : Amortized time complexity for operations - push, pop, peek , Empty is O(1).
+// Time Complexity : Worst case time complexity for operations - pop and peek is O(n) when the outStack is Empty.
+// Space Complexity : 2 * O(n) = O(n)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
 
 
 // Your code here along with comments explaining your approach
