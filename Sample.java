@@ -14,10 +14,12 @@ class MyQueue {
         this.outStack = new Stack<>();
     }
 
+    //Time Complexity - O(1)
     public void push(int x) {
         inStack.push(x);
     }
 
+    //Time Complexity - O(1)
     public int pop() {
         if(outStack.isEmpty()){
             while(!inStack.isEmpty()){
@@ -27,6 +29,7 @@ class MyQueue {
         return outStack.pop();
     }
 
+    //Time Complexity - O(1)
     public int peek() {
         if(outStack.isEmpty()){
             while(!inStack.isEmpty()){
@@ -36,6 +39,7 @@ class MyQueue {
         return outStack.peek();
     }
 
+    //Time Complexity - O(1)
     public boolean empty() {
         return inStack.isEmpty() && outStack.isEmpty();
     }
